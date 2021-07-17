@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     container: {
         width: '100%',
         padding: 10,
-        
+        top: 350,
     },
     button: {
         height: 40,
