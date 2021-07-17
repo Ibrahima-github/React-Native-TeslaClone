@@ -1,12 +1,11 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import styles from '../CarItem/styles';
-import styles from '../CarItem/styles';
+import styles from '../StyledButton/style'
 
-const StyleButton = (props) => {
+const StyledButton = (props) => {
     const {type, content, onPress} = props;
     const backgrounColor = type === 'primary' ? '#171A20CC' : '#FFFFFFA6';
-    const textColor = type === 'primary' ? 'FFFFFF' : '171A20';
+    const textColor = type === 'primary' ? '#FFFFFF' : '#171A20';
     return(
         
         <View style= {styles.container}>
